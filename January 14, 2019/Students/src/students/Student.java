@@ -13,6 +13,7 @@ public class Student {
         this.name = name;
         this.id = id;
     }
+    
 
     /**
      * @return the name
@@ -42,4 +43,8 @@ public class Student {
         this.id = id;
     }
 
+    @Override
+    public String toString() {
+        return "Student's name is: " + name + "\nStudent's ID is: " + id;
+    }
 }
