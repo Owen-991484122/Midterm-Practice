@@ -14,8 +14,7 @@ public class GithubPractice {
         
         Person person1 = new Person("Owen", "1234 Street St");
        
-        System.out.println (person1.getName());
-        System.out.println (person1.getAddress());
+        System.out.println (person1.toString());
         
     }
 
