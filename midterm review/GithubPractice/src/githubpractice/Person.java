@@ -34,4 +34,9 @@ public class Person {
 		this.address = address;
 	}
 
+    @Override
+    public String toString() {
+        return "The person's name is: " + getName() + "The person's address is: " +
+                getAddress();
+    }
 }
